@@ -50,12 +50,7 @@ const samples: Sample[] = [
     imgUrl: "/gameboxdtb.png",
     githubUrl: "https://github.com/SimplyHans/GameBoxd-Mobile",
   },
-  {
-    title: "---",
-    summary:
-      "-",
-    tags: ["-"],
-  },
+ 
 ];
 
 const AcademicSamples = () => {
@@ -67,10 +62,6 @@ const AcademicSamples = () => {
       <h2 className="font-mono bg-gradient-to-r from-yellow-300 to-yellow-600 bg-clip-text text-transparent font-bold text-3xl lg:text-3xl text-center mb-3">
         Academic work samples
       </h2>
-      <p className="font-mono text-center text-sm text-gray-400 mb-8">
-        Five representative samples aligned with coursework, teams, and independent
-        practice (minimum five as required).
-      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {samples.map((s) => (

@@ -13,9 +13,9 @@ const CapstoneHighlight = () => {
           Capstone project
         </h2>
         <p className="font-mono text-sm text-gray-200/85 leading-relaxed mb-6 max-w-3xl">
-          <strong className="text-white">Shift Flow</strong> is my capstone focus: a
+          <strong className="text-white">Shift Flow </strong> is my capstone focus: a
           shift-management product combining UX research artifacts, requirements,
-          planning, and implementation status. The full assignment bundle—summary,
+          planning, and implementation status. The full assignment summary,
           vision, business requirements, plan, analysis &amp; design, wireframes,
           status reports, and system implementation notes—is on the case study page.
         </p>

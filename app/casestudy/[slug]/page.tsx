@@ -41,6 +41,7 @@ export default function CaseStudyPage() {
   return (
     <main className="relative bg-[var(--color-custom-white)] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 min-h-screen">
       <div className=" w-full py-20 px-2 sm:px-4">
+        <Hero imgUrl={caseStudy.imgUrl}/>
         <div onClick={handleBackToPortfolio}>
           <MainButton
             title="Back to portfolio"
@@ -51,8 +52,6 @@ export default function CaseStudyPage() {
             clickFunction={handleBackToPortfolio}
           />
         </div>
-
-        <Hero imgUrl={caseStudy.imgUrl}/>
         <div className="max-w-4xl mx-auto px-2">
           <h1 className={`font-mono font-bold text-4xl lg:text-5xl mb-8 ${caseStudy.secondaryClr}`}>
             {caseStudy.title}
