@@ -54,9 +54,9 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-row gap-4 mb-6">
-        <a href="#projects" title='View Projects'>
+        <a href="#academic-samples" title="View academic work samples">
           <MainButton 
-            title="View Projects" 
+            title="View samples" 
             icon={<FaArrowDown/>}  
             position="right" 
             border="rounded-2xl hover:border-amber-300 duration-200"

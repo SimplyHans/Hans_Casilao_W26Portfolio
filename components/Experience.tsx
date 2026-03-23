@@ -4,7 +4,7 @@ import XpCards from './ui/XpCards'
 const Experience = () => {
   return (
     <div id="experience" className="mb-15 2xl:mb-20 w-4/5 max-w-5xl mx-auto">
-        <h2 className="font-mono bg-gradient-to-r from-yellow-300 to-yellow-600 bg-clip-text text-transparent font-bold text-3xl lg:text-3xl text-center mb-6">Work Experience</h2>
+        <h2 className="font-mono bg-gradient-to-r from-yellow-300 to-yellow-600 bg-clip-text text-transparent font-bold text-3xl lg:text-3xl text-center mb-6">Professional work experience</h2>
 
 
         
