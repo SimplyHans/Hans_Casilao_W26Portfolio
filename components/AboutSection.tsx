@@ -65,7 +65,12 @@ const AboutSection = () => {
           </dl>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
-            <a href="/resume" title="View resume">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Open resume (PDF)"
+            >
               <MainButton
                 title="Resume"
                 icon={<FaFileAlt className="text-lg" />}
@@ -74,7 +79,12 @@ const AboutSection = () => {
                 otherClasses="w-full sm:w-36 h-10 hover:text-black"
               />
             </a>
-            <a href="/cover-letter" title="View cover letter">
+            <a
+              href="/cover-letter.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Open cover letter (PDF)"
+            >
               <MainButton
                 title="Cover letter"
                 icon={<RiArrowRightUpLine className="text-lg" />}
