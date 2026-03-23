@@ -121,8 +121,8 @@ const AboutSection = () => {
               I take that idea seriously in a practical sense: growth is not something
               that happens to us between assignments. It is the sum of deliberate
               choices in how we learn, how we listen to users, and how we ship. Past
-              freelance UI work taught me to negotiate real constraints with clients;
-              my current studies and team projects push me to document assumptions,
+              freelance UI work taught me to negotiate real constraints with clients.
+              My current studies and team projects push me to document assumptions,
               test earlier, and align interfaces with backend security and data models.
             </p>
             <p className="font-mono text-sm text-gray-200/85 leading-relaxed">
